@@ -1,5 +1,5 @@
 // Ciencia para las Regiones al Día — service worker (Vibras Positivas HM)
-const C='cra-v3';
+const C='cra-v4';
 const CORE=['./','index.html','manifest.json','icon-192.png','icon-512.png','og-image.jpg',
 'img/foto-campo.jpg','img/foto-alianza.jpg','img/foto-paneles.jpg','img/foto-cultivo.jpg','img/foto-drones.jpg',
 'img/pieza-ejes.jpg','img/pieza-alianza.jpg','img/pieza-postula.jpg'];

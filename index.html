@@ -6,17 +6,17 @@
 <title>Ciencia para las Regiones al Día · Convocatorias 54 y 55 de regalías</title>
 <meta name="description" content="Seguimiento ciudadano a las convocatorias 54 y 55 de MinCiencias: $1,43 billones de regalías para ciencia en las regiones. Cifras, cronograma, alianzas, oportunidades para el Bajo Cauca, noticias al minuto y derecho de petición.">
 <meta name="theme-color" content="#08301a">
-<link rel="canonical" href="https://dancing-capybara-946d99.netlify.app/">
+<link rel="canonical" href="https://ciencia-regiones-al-dia.netlify.app/">
 <!-- Vista previa al compartir (Open Graph / Twitter) -->
 <meta property="og:type" content="website">
 <meta property="og:title" content="Ciencia para las Regiones al Día · $1,43 billones de regalías">
 <meta property="og:description" content="Convocatorias 54 y 55 de MinCiencias: quién puede postular, cuánta plata hay, qué se viene para el Bajo Cauca y cómo hacerle seguimiento. Cierre: 13 nov, 4:00 p. m.">
-<meta property="og:image" content="https://dancing-capybara-946d99.netlify.app/og-image.jpg">
-<meta property="og:url" content="https://dancing-capybara-946d99.netlify.app/">
+<meta property="og:image" content="https://ciencia-regiones-al-dia.netlify.app/og-image.jpg">
+<meta property="og:url" content="https://ciencia-regiones-al-dia.netlify.app/">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Ciencia para las Regiones al Día · $1,43 billones de regalías">
 <meta name="twitter:description" content="Seguimiento ciudadano a las convocatorias 54 y 55 de MinCiencias. Cierre: 13 nov, 4:00 p. m.">
-<meta name="twitter:image" content="https://dancing-capybara-946d99.netlify.app/og-image.jpg">
+<meta name="twitter:image" content="https://ciencia-regiones-al-dia.netlify.app/og-image.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:locale" content="es_CO">
@@ -789,10 +789,10 @@ $('#psend').onclick=()=>{if(!okDatos())return;const to=dests();if(!to.length)ret
  const sub='Derecho de petición – Convocatorias 54 y 55 SGR CTeI – '+$('#pm').value;
  location.href='mailto:'+to.join(',')+'?subject='+encodeURIComponent(sub)+'&body='+encodeURIComponent($('#pt').value)};
 $('#pcopy').onclick=async()=>{try{await navigator.clipboard.writeText('Para: '+dests().join(', ')+'\n\n'+$('#pt').value);toast(T('Carta copiada con los correos','Letter copied with recipients'))}catch(e){$('#pt').select();document.execCommand('copy');toast(T('Carta copiada','Copied'))}};
-$('#pwa').onclick=()=>{window.open('https://wa.me/?text='+encodeURIComponent('Exijamos información sobre la plata de regalías para ciencia en nuestra región. Envíe su derecho de petición desde aquí: https://dancing-capybara-946d99.netlify.app/#peticion'),'_blank')};
+$('#pwa').onclick=()=>{window.open('https://wa.me/?text='+encodeURIComponent('Exijamos información sobre la plata de regalías para ciencia en nuestra región. Envíe su derecho de petición desde aquí: https://ciencia-regiones-al-dia.netlify.app/#peticion'),'_blank')};
 
 /* compartir */
-$('#share').onclick=async()=>{const d={title:'Ciencia para las Regiones al Día',text:T('$1,43 billones de regalías para ciencia en las regiones. Cierre: 13 nov, 4:00 p. m.','COP 1.43 trillion in royalties for regional science. Deadline: Nov 13, 4 p.m.'),url:'https://dancing-capybara-946d99.netlify.app/'};
+$('#share').onclick=async()=>{const d={title:'Ciencia para las Regiones al Día',text:T('$1,43 billones de regalías para ciencia en las regiones. Cierre: 13 nov, 4:00 p. m.','COP 1.43 trillion in royalties for regional science. Deadline: Nov 13, 4 p.m.'),url:'https://ciencia-regiones-al-dia.netlify.app/'};
  if(navigator.share){try{await navigator.share(d)}catch(e){}}else window.open('https://wa.me/?text='+encodeURIComponent(d.text+' '+d.url),'_blank')};
 
 /* contadores y aparición */
