@@ -2,7 +2,7 @@
 
 App ciudadana (PWA) de **Vibras Positivas HM** para hacerle seguimiento a las convocatorias **54 y 55** de MinCiencias: $1,43 billones del Sistema General de Regalías para ciencia, tecnología e innovación en las regiones. Cierre: **viernes 13 de noviembre de 2026, 4:00 p. m.** (hora de Colombia).
 
-**URL:** https://ciencia-regiones-al-dia.netlify.app
+**URL:** https://dancing-capybara-946d99.netlify.app
 **Repo:** haroldco45/ciencia-regiones-al-dia
 
 ## Qué trae
@@ -33,7 +33,7 @@ scripts/robot.mjs
 1. Cree el repo `haroldco45/ciencia-regiones-al-dia` y suba todos los archivos con las mismas carpetas.
 2. En el repo: **Settings → Actions → General → Workflow permissions → Read and write permissions**.
 3. En **Actions → Robot de noticias → Run workflow**, córralo una vez a mano.
-4. En Netlify: **Add new site → Import from GitHub** con este repo y el nombre `ciencia-regiones-al-dia`. Cada vez que el robot guarde noticias, Netlify publica solo.
+4. En Netlify: **Add new site → Import from GitHub** con este repo (sitio publicado como dancing-capybara-946d99). Cada vez que el robot guarde noticias, Netlify publica solo.
 
 ## Para revisar
 - Los correos de la Alcaldía de Caucasia (`alcaldia@` y `planeacion@caucasia-antioquia.gov.co`) salen de documentos judiciales públicos; confírmelos en la página de la Alcaldía antes de enviar.
