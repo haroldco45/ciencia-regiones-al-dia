@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Ciencia para las Regiones al Día · Convocatorias 54 y 55 de regalías</title>
+<meta name="description" content="Seguimiento ciudadano a las convocatorias 54 y 55 de MinCiencias: $1,43 billones de regalías para ciencia en las regiones. Cifras, cronograma, alianzas, oportunidades para el Bajo Cauca, noticias al minuto y derecho de petición.">
+<meta name="theme-color" content="#08301a">
+<link rel="canonical" href="https://ciencia-regiones-al-dia.netlify.app/">
+<!-- Vista previa al compartir (Open Graph / Twitter) -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Ciencia para las Regiones al Día · $1,43 billones de regalías">
+<meta property="og:description" content="Convocatorias 54 y 55 de MinCiencias: quién puede postular, cuánta plata hay, qué se viene para el Bajo Cauca y cómo hacerle seguimiento. Cierre: 13 nov, 4:00 p. m.">
+<meta property="og:image" content="https://ciencia-regiones-al-dia.netlify.app/og-image.jpg">
+<meta property="og:url" content="https://ciencia-regiones-al-dia.netlify.app/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Ciencia para las Regiones al Día · $1,43 billones de regalías">
+<meta name="twitter:description" content="Seguimiento ciudadano a las convocatorias 54 y 55 de MinCiencias. Cierre: 13 nov, 4:00 p. m.">
+<meta name="twitter:image" content="https://ciencia-regiones-al-dia.netlify.app/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="es_CO">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800&family=Barlow+Condensed:wght@600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--verde:#08301a;--verde2:#0f4a28;--lima:#a3e635;--lima2:#d9f99d;--crema:#f6f8f2;--tinta:#0b1a10;--gris:#5b6b60;--rojo:#e11d48;--r:18px}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Barlow,system-ui,sans-serif;background:var(--crema);color:var(--tinta);line-height:1.5;overflow-x:hidden}
+html[lang=es] .en, html[lang=en] .es{display:none!important}
+a{color:inherit}
+img{max-width:100%;display:block}
+.cond{font-family:"Barlow Condensed","Arial Narrow",sans-serif,Barlow,sans-serif;letter-spacing:.2px}
+.wrap{max-width:1100px;margin:0 auto;padding:0 18px}
+
+/* barra superior */
+.top{position:sticky;top:0;z-index:50;background:rgba(8,48,26,.92);backdrop-filter:blur(10px);color:#fff}
+.top .wrap{display:flex;align-items:center;gap:10px;height:58px}
+.brand{font-family:"Barlow Condensed","Arial Narrow",sans-serif;font-weight:800;font-size:20px;line-height:1;flex:1}
+.brand b{color:var(--lima)}
+.btn{border:0;cursor:pointer;font:700 14px Barlow,Arial,sans-serif;border-radius:999px;padding:9px 15px;transition:.2s}
+.btn-l{background:var(--lima);color:var(--verde)}
+.btn-l:hover{background:#bef264;transform:translateY(-1px)}
+.btn-o{background:transparent;color:#fff;border:1.5px solid rgba(255,255,255,.5)}
+.btn-o:hover{border-color:var(--lima);color:var(--lima)}
+.btn-v{background:var(--verde);color:#fff}
+.btn-v:hover{background:var(--verde2)}
+.spin{animation:sp 1s linear infinite;display:inline-block}
+@keyframes sp{to{transform:rotate(360deg)}}
+
+/* nav secciones */
+.nav{position:sticky;top:58px;z-index:40;background:#fff;border-bottom:1px solid #e4eadf;overflow-x:auto;white-space:nowrap;scrollbar-width:none}
+.nav::-webkit-scrollbar{display:none}
+.nav a{display:inline-block;padding:12px 14px;font-weight:700;font-size:14px;text-decoration:none;color:var(--gris);border-bottom:3px solid transparent}
+.nav a.on{color:var(--verde);border-color:var(--lima)}
+
+/* hero */
+.hero{position:relative;min-height:88vh;display:flex;align-items:flex-end;color:#fff;overflow:hidden;background:var(--verde)}
+.hero .bg{position:absolute;inset:0;background-size:cover;background-position:center;opacity:0;transition:opacity 1.6s;animation:kb 18s ease-in-out infinite alternate}
+.hero .bg.on{opacity:1}
+@keyframes kb{from{transform:scale(1.02)}to{transform:scale(1.14) translate(-2%,-1%)}}
+.hero:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(8,48,26,.15) 0%,rgba(8,48,26,.55) 45%,rgba(8,48,26,.97) 100%)}
+.hero .wrap{position:relative;z-index:2;padding-bottom:42px;padding-top:120px;width:100%}
+.tag{display:inline-block;background:var(--lima);color:var(--verde);font:800 13px "Barlow Condensed","Arial Narrow",sans-serif;letter-spacing:1.2px;text-transform:uppercase;padding:5px 11px;border-radius:6px}
+.live{display:inline-flex;align-items:center;gap:7px;margin-left:8px;font:700 13px Barlow,Arial,sans-serif;color:#fff}
+.live:before{content:"";width:9px;height:9px;border-radius:50%;background:var(--rojo);box-shadow:0 0 0 0 rgba(225,29,72,.7);animation:pulse 1.6s infinite}
+@keyframes pulse{70%{box-shadow:0 0 0 10px rgba(225,29,72,0)}100%{box-shadow:0 0 0 0 rgba(225,29,72,0)}}
+.hero h1{font-family:"Barlow Condensed","Arial Narrow",sans-serif;font-weight:800;font-size:clamp(42px,9vw,84px);line-height:.95;margin:14px 0 10px}
+.hero h1 span{color:var(--lima)}
+.hero p.lead{font-size:clamp(17px,2.6vw,21px);max-width:680px;opacity:.95}
+.count{display:flex;gap:10px;margin:22px 0 18px;flex-wrap:wrap}
+.count div{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.25);backdrop-filter:blur(6px);border-radius:14px;padding:10px 14px;min-width:78px;text-align:center}
+.count b{display:block;font:800 38px "Barlow Condensed","Arial Narrow",sans-serif;line-height:1}
+.count small{font-size:12px;text-transform:uppercase;letter-spacing:1px;opacity:.85}
+.count .lab{background:var(--lima);color:var(--verde);border:0;display:flex;flex-direction:column;justify-content:center;text-align:left;font-weight:700;font-size:14px;line-height:1.2}
+.hero .acts{display:flex;gap:10px;flex-wrap:wrap}
+
+/* ticker */
+.ticker{background:var(--lima);color:var(--verde);overflow:hidden;white-space:nowrap;font-weight:700;font-size:15px}
+.ticker .in{display:inline-block;padding:11px 0;animation:tk 60s linear infinite}
+.ticker .in span{margin:0 26px}
+.ticker .in span b{background:var(--verde);color:var(--lima);padding:2px 7px;border-radius:4px;margin-right:8px;font-size:12px}
+@keyframes tk{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+
+section{padding:64px 0;scroll-margin-top:100px}
+.kick{font:800 14px "Barlow Condensed","Arial Narrow",sans-serif;letter-spacing:2px;text-transform:uppercase;color:#4d7c0f}
+h2{font-family:"Barlow Condensed","Arial Narrow",sans-serif;font-weight:800;font-size:clamp(32px,5.6vw,50px);line-height:1;margin:6px 0 14px;color:var(--verde)}
+h3{font-family:"Barlow Condensed","Arial Narrow",sans-serif;font-weight:800;font-size:24px;line-height:1.1;color:var(--verde)}
+.sub{color:var(--gris);font-size:18px;max-width:760px;margin-bottom:26px}
+.rev{opacity:0;transform:translateY(26px);transition:.7s cubic-bezier(.2,.7,.2,1)}
+.rev.vis{opacity:1;transform:none}
+
+/* HOY */
+#hoy{background:var(--verde);color:#fff;position:relative;overflow:hidden}
+#hoy h2{color:#fff}
+#hoy .kick{color:var(--lima)}
+.hoygrid{display:grid;grid-template-columns:1.1fr .9fr;gap:18px}
+.card{background:#fff;border-radius:var(--r);padding:22px;box-shadow:0 10px 30px rgba(8,48,26,.08)}
+#hoy .card{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.14);box-shadow:none}
+.fecha{font:800 22px "Barlow Condensed","Arial Narrow",sans-serif;color:var(--lima)}
+.paso{margin-top:12px;font-size:19px}
+.paso b{color:var(--lima)}
+.bar{height:12px;background:rgba(255,255,255,.15);border-radius:99px;overflow:hidden;margin:16px 0 6px}
+.bar i{display:block;height:100%;background:linear-gradient(90deg,var(--lima),#4ade80);width:0;transition:width 1.6s}
+.hoylist{list-style:none;margin-top:6px}
+.hoylist li{padding:11px 0;border-bottom:1px solid rgba(255,255,255,.12)}
+.hoylist li:last-child{border:0}
+.hoylist a{text-decoration:none;font-weight:600}
+.hoylist a:hover{color:var(--lima)}
+.hoylist small{display:block;opacity:.7;font-size:13px}
+.upd{font-size:13px;opacity:.75;margin-top:10px}
+
+/* cifras */
+.nums{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.num{background:#fff;border-radius:var(--r);padding:20px;position:relative;overflow:hidden;border:1px solid #e4eadf;transition:.25s}
+.num:hover{transform:translateY(-4px);box-shadow:0 14px 30px rgba(8,48,26,.12)}
+.num b{display:block;font:800 clamp(30px,4.4vw,44px) "Barlow Condensed","Arial Narrow",sans-serif;color:var(--verde);line-height:1}
+.num span{font-size:15px;color:var(--gris)}
+.num:before{content:"";position:absolute;left:0;top:0;bottom:0;width:5px;background:var(--lima)}
+.duo{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:22px}
+.convo{border-radius:var(--r);overflow:hidden;background:#fff;border:1px solid #e4eadf}
+.convo .ph{height:190px;background-size:cover;background-position:center;position:relative}
+.convo .ph span{position:absolute;left:16px;bottom:14px;background:var(--verde);color:var(--lima);font:800 22px "Barlow Condensed","Arial Narrow",sans-serif;padding:4px 12px;border-radius:8px}
+.convo .tx{padding:18px}
+.convo ul{margin:10px 0 0 18px}
+.convo li{margin:5px 0}
+
+/* cronograma */
+.tl{position:relative;margin-left:10px;border-left:3px solid #d6e2cf}
+.tl .it{position:relative;padding:0 0 22px 26px}
+.tl .it:before{content:"";position:absolute;left:-10px;top:4px;width:17px;height:17px;border-radius:50%;background:#fff;border:3px solid #b5c7ac}
+.tl .it.ok:before{background:var(--verde);border-color:var(--verde)}
+.tl .it.ya:before{background:var(--lima);border-color:var(--verde);box-shadow:0 0 0 6px rgba(163,230,53,.35);animation:pulse2 1.8s infinite}
+@keyframes pulse2{50%{box-shadow:0 0 0 11px rgba(163,230,53,.1)}}
+.tl .d{font:800 15px "Barlow Condensed","Arial Narrow",sans-serif;color:#4d7c0f;text-transform:uppercase;letter-spacing:1px}
+.tl .t{font-weight:700;font-size:18px}
+.tl .it.ok .t{color:var(--gris)}
+.tl .st{display:inline-block;font-size:12px;font-weight:800;padding:2px 8px;border-radius:5px;margin-left:6px;vertical-align:2px}
+.st.s1{background:#e4eadf;color:var(--gris)}.st.s2{background:var(--lima);color:var(--verde)}.st.s3{background:#fff3c4;color:#7a5a00}
+.src{font-size:12px;color:var(--gris)}
+
+/* lineas */
+.retos{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.reto{border-radius:var(--r);overflow:hidden;color:#fff;position:relative;min-height:380px;display:flex;flex-direction:column;justify-content:flex-end}
+.reto .ph{position:absolute;inset:0;background-size:cover;background-position:center;transition:transform 1.2s}
+.reto:hover .ph{transform:scale(1.08)}
+.reto:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(8,48,26,.1),rgba(8,48,26,.95) 62%)}
+.reto .tx{position:relative;z-index:2;padding:20px}
+.reto h3{color:var(--lima);font-size:26px}
+.reto ol{list-style:none;margin-top:10px}
+.reto li{padding:7px 0;border-top:1px solid rgba(255,255,255,.18);font-weight:600}
+.reto li b{color:var(--lima);margin-right:6px}
+
+/* alianza */
+.ali{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.act{background:#fff;border-radius:var(--r);padding:20px;border-top:6px solid var(--verde)}
+.act .n{font:800 46px "Barlow Condensed","Arial Narrow",sans-serif;color:var(--lima);-webkit-text-stroke:1.5px var(--verde);line-height:1}
+.act h3{font-size:21px;margin:6px 0}
+.act p{font-size:15px;color:var(--gris)}
+.act .ej{margin-top:10px;font-size:14px;background:var(--crema);border-radius:10px;padding:10px}
+.ali-foto{margin-top:18px;border-radius:var(--r);overflow:hidden;position:relative}
+.ali-foto img{width:100%;height:340px;object-fit:cover}
+.ali-foto .cap{position:absolute;left:0;right:0;bottom:0;padding:18px;color:#fff;background:linear-gradient(transparent,rgba(8,48,26,.92));font-weight:600}
+.reglas{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:18px}
+.regla{background:var(--verde);color:#fff;border-radius:var(--r);padding:18px}
+.regla b{display:block;font:800 30px "Barlow Condensed","Arial Narrow",sans-serif;color:var(--lima);line-height:1;margin-bottom:6px}
+
+/* posibilidades */
+#posibles{background:#eef4e7}
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px}
+.tab{background:#fff;border:2px solid var(--verde);color:var(--verde);font:700 15px Barlow,Arial,sans-serif;padding:9px 16px;border-radius:999px;cursor:pointer}
+.tab.on{background:var(--verde);color:var(--lima)}
+.pos{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.op{background:#fff;border-radius:var(--r);overflow:hidden;display:flex;flex-direction:column;transition:.25s}
+.op:hover{transform:translateY(-5px);box-shadow:0 16px 34px rgba(8,48,26,.15)}
+.op .ph{height:150px;background-size:cover;background-position:center;position:relative}
+.op .ph em{position:absolute;top:12px;left:12px;font-style:normal;background:var(--lima);color:var(--verde);font:800 12px Barlow,Arial,sans-serif;padding:3px 9px;border-radius:5px;text-transform:uppercase;letter-spacing:.6px}
+.op .tx{padding:16px 18px 20px}
+.op h3{font-size:21px;margin-bottom:6px}
+.op p{font-size:15px;color:#35443a}
+.op .who{margin-top:10px;font-size:13px;font-weight:700;color:#4d7c0f}
+.ojo{margin-top:22px;background:#fff;border-left:6px solid var(--rojo);border-radius:12px;padding:18px}
+.ojo h3{color:var(--rojo);font-size:21px}
+.ojo ul{margin:8px 0 0 18px}
+.ojo li{margin:5px 0}
+
+/* contexto */
+.ctx{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.ctx .card h3{margin-bottom:8px}
+.ctx .card p{color:#35443a;font-size:16px}
+.ctx .card .src{margin-top:10px}
+
+/* noticias */
+.ntools{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:16px}
+.ntools input{flex:1;min-width:220px;border:2px solid #cfdcc7;border-radius:999px;padding:11px 18px;font:600 16px Barlow,Arial,sans-serif;background:#fff;outline:none}
+.ntools input:focus{border-color:var(--verde)}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px}
+.chip{background:#fff;border:1.5px solid #cfdcc7;border-radius:999px;padding:6px 13px;font:700 13px Barlow,Arial,sans-serif;cursor:pointer;color:var(--verde)}
+.chip.on{background:var(--verde);color:#fff;border-color:var(--verde)}
+.news{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.nw{background:#fff;border-radius:var(--r);overflow:hidden;text-decoration:none;display:flex;flex-direction:column;border:1px solid #e4eadf;transition:.25s;animation:fin .5s both}
+@keyframes fin{from{opacity:0;transform:translateY(14px)}}
+.nw:hover{transform:translateY(-4px);box-shadow:0 14px 28px rgba(8,48,26,.12)}
+.nw .ph{height:120px;background-size:cover;background-position:center;position:relative}
+.nw .ph:after{content:"";position:absolute;inset:0;background:linear-gradient(transparent 30%,rgba(8,48,26,.85))}
+.nw .ph span{position:absolute;z-index:2;left:12px;bottom:10px;color:#fff;font:800 14px "Barlow Condensed","Arial Narrow",sans-serif;letter-spacing:.6px;text-transform:uppercase}
+.nw .ph i{position:absolute;z-index:2;top:10px;right:10px;font-style:normal;background:var(--rojo);color:#fff;font:800 11px Barlow,Arial,sans-serif;padding:2px 7px;border-radius:4px}
+.nw .tx{padding:14px 16px 16px}
+.nw h4{font-size:17px;line-height:1.25;color:var(--tinta)}
+.nw small{display:block;margin-top:8px;color:var(--gris);font-size:13px}
+.empty{padding:26px;text-align:center;color:var(--gris);background:#fff;border-radius:var(--r);grid-column:1/-1}
+
+/* peticion */
+#peticion{background:var(--verde);color:#fff}
+#peticion h2{color:#fff}
+#peticion .kick{color:var(--lima)}
+#peticion .sub{color:#d6e7cf}
+.pet{display:grid;grid-template-columns:.9fr 1.1fr;gap:18px}
+.pet .card{background:#fff;color:var(--tinta)}
+label{display:block;font-weight:700;font-size:14px;margin:12px 0 5px}
+input,select,textarea{width:100%;border:2px solid #d6e2cf;border-radius:12px;padding:11px 13px;font:500 16px Barlow,Arial,sans-serif;background:#fff;color:var(--tinta)}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--verde)}
+textarea{min-height:420px;font-size:14px;line-height:1.45}
+.dest{list-style:none;margin-top:8px}
+.dest li{display:flex;gap:10px;align-items:flex-start;padding:8px 0;border-bottom:1px solid #edf2ea;font-size:14px}
+.dest input{width:auto;margin-top:4px;accent-color:var(--verde)}
+.dest small{display:block;color:var(--gris)}
+.priv{font-size:12.5px;color:var(--gris);margin-top:12px;background:var(--crema);padding:10px;border-radius:10px}
+.pacts{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}
+.pacts .btn{padding:13px 20px;font-size:15px}
+
+/* docs */
+.docs{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+.doc{display:flex;justify-content:space-between;gap:10px;align-items:center;background:#fff;border:1px solid #e4eadf;border-radius:12px;padding:13px 16px;text-decoration:none;font-weight:600;transition:.2s}
+.doc:hover{border-color:var(--verde);transform:translateX(4px)}
+.doc span{font:800 12px Barlow,Arial,sans-serif;background:var(--crema);color:#4d7c0f;padding:3px 8px;border-radius:5px;white-space:nowrap}
+.piezas{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:22px}
+.piezas img{border-radius:14px;width:100%;height:340px;object-fit:cover;object-position:top}
+
+footer{background:#04170c;color:#c9d8c2;padding:36px 0 90px;font-size:14px}
+footer b{color:#fff}
+footer .copy{margin-top:14px;color:var(--lima);font-weight:700}
+
+.toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%) translateY(120px);background:var(--tinta);color:#fff;padding:12px 18px;border-radius:12px;font-weight:600;z-index:99;transition:.35s;max-width:90vw}
+.toast.on{transform:translateX(-50%) translateY(0)}
+#inst{display:none}
+
+@media (max-width:900px){
+  .hoygrid,.duo,.pet,.ctx{grid-template-columns:1fr}
+  .nums,.ali{grid-template-columns:1fr 1fr}
+  .retos,.pos,.news,.reglas,.piezas{grid-template-columns:1fr}
+  .docs{grid-template-columns:1fr}
+  .reto{min-height:330px}
+  .piezas img{height:auto}
+}
+@media (max-width:420px){.top .btn{padding:8px 11px;font-size:13px}.brand{font-size:17px}}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <div class="brand">Ciencia para las <b>Regiones al Día</b></div>
+    <button class="btn btn-o" id="lang" aria-label="Idioma / Language">EN</button>
+    <button class="btn btn-l" id="refresh"><span class="es">Actualizar</span><span class="en">Refresh</span></button>
+    <button class="btn btn-o" id="inst"><span class="es">Instalar</span><span class="en">Install</span></button>
+  </div>
+</header>
+
+<nav class="nav" id="nav">
+  <a href="#hoy">Hoy</a>
+  <a href="#cifras"><span class="es">Las cifras</span><span class="en">Numbers</span></a>
+  <a href="#cronograma"><span class="es">Cronograma</span><span class="en">Timeline</span></a>
+  <a href="#lineas"><span class="es">Líneas</span><span class="en">Themes</span></a>
+  <a href="#alianza"><span class="es">La alianza</span><span class="en">Alliance</span></a>
+  <a href="#posibles"><span class="es">Lo que se viene</span><span class="en">Opportunities</span></a>
+  <a href="#contexto"><span class="es">Contexto</span><span class="en">Context</span></a>
+  <a href="#noticias"><span class="es">Noticias</span><span class="en">News</span></a>
+  <a href="#peticion"><span class="es">Derecho de petición</span><span class="en">Petition</span></a>
+  <a href="#docs"><span class="es">Documentos</span><span class="en">Documents</span></a>
+</nav>
+
+<section class="hero" id="top" style="padding:0">
+  <div class="bg on" style="background-image:url(img/foto-campo.jpg)"></div>
+  <div class="bg" style="background-image:url(img/foto-alianza.jpg)"></div>
+  <div class="bg" style="background-image:url(img/foto-paneles.jpg)"></div>
+  <div class="wrap">
+    <span class="tag"><span class="es">Seguimiento ciudadano</span><span class="en">Citizen tracker</span></span><span class="live"><span class="es">En vivo</span><span class="en">Live</span></span>
+    <h1><span class="es">$1,43 billones de regalías para <span>ciencia en las regiones</span></span><span class="en">COP 1.43 trillion in royalties for <span>science in the regions</span></span></h1>
+    <p class="lead es">MinCiencias abrió las convocatorias 54 y 55 del Sistema General de Regalías. Aquí le hacemos seguimiento día a día: quién puede postular, cuánta plata hay, qué se le viene al Bajo Cauca y cómo exigir información.</p>
+    <p class="lead en">Colombia's Science Ministry opened calls 54 and 55 of the General Royalties System. We track them day by day: who can apply, how much money there is, what it means for Bajo Cauca and how to demand information.</p>
+    <div class="count" id="count">
+      <div class="lab" id="countlab"><span class="es">Faltan para el cierre<br>13 nov · 4:00 p. m.</span><span class="en">Time left to deadline<br>Nov 13 · 4:00 p.m.</span></div>
+      <div><b id="cd-d">0</b><small class="es">días</small><small class="en">days</small></div>
+      <div><b id="cd-h">0</b><small class="es">horas</small><small class="en">hours</small></div>
+      <div><b id="cd-m">0</b><small>min</small></div>
+      <div><b id="cd-s">0</b><small class="es">seg</small><small class="en">sec</small></div>
+    </div>
+    <div class="acts">
+      <a class="btn btn-l" href="#posibles"><span class="es">Ver lo que se nos viene</span><span class="en">See the opportunities</span></a>
+      <a class="btn btn-o" href="#peticion"><span class="es">Enviar derecho de petición</span><span class="en">Send a petition</span></a>
+      <button class="btn btn-o" id="share"><span class="es">Compartir</span><span class="en">Share</span></button>
+    </div>
+  </div>
+</section>
+
+<div class="ticker" aria-live="polite"><div class="in" id="ticker"><span><b>C54</b>$927.591 millones · cierre 13 nov 4:00 p. m.</span><span><b>C55</b>$500.000 millones para 10 macroproyectos</span></div></div>
+
+<!-- HOY -->
+<section id="hoy">
+  <div class="wrap">
+    <div class="kick">Hoy</div>
+    <h2 class="es">Lo que pasa hoy con las convocatorias</h2>
+    <h2 class="en">What is happening today</h2>
+    <div class="hoygrid">
+      <div class="card rev">
+        <div class="fecha" id="hoyfecha">—</div>
+        <div class="paso" id="hoypaso">—</div>
+        <div class="bar"><i id="hoybar"></i></div>
+        <div class="upd" id="hoybartx"></div>
+        <div class="paso" id="hoyprox" style="font-size:17px"></div>
+      </div>
+      <div class="card rev">
+        <h3 style="color:#fff"><span class="es">Lo último en noticias</span><span class="en">Latest news</span></h3>
+        <ul class="hoylist" id="hoylist"><li class="es">Cargando…</li><li class="en">Loading…</li></ul>
+        <div class="upd" id="upd"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CIFRAS -->
+<section id="cifras">
+  <div class="wrap">
+    <div class="kick"><span class="es">Las cifras</span><span class="en">The numbers</span></div>
+    <h2 class="es">¿Cuánta plata hay y cómo se reparte?</h2>
+    <h2 class="en">How much money and how is it split?</h2>
+    <p class="sub es">Dos convocatorias con recursos de la Asignación para Ciencia, Tecnología e Innovación del Sistema General de Regalías (SGR). La 54 es para proyectos regionales; la 55, para macroproyectos que toquen varias regiones.</p>
+    <p class="sub en">Two calls funded by the Science, Technology and Innovation allocation of the General Royalties System (SGR). Call 54 funds regional projects; call 55 funds macro-projects spanning several regions.</p>
+    <div class="nums">
+      <div class="num rev"><b data-n="1427591">0</b><span class="es">millones en total (54 + 55)</span><span class="en">million COP in total (54 + 55)</span></div>
+      <div class="num rev"><b data-n="154598">0</b><span class="es">millones por región en la 54 (6 regiones, partes iguales)</span><span class="en">million COP per region in call 54 (6 equal shares)</span></div>
+      <div class="num rev"><b data-n="17177">0</b><span class="es">millones máximo por proyecto regional</span><span class="en">million COP max per regional project</span></div>
+      <div class="num rev"><b data-n="54">0</b><span class="es">proyectos aprox. en la 54 (hasta 9 por región)</span><span class="en">projects approx. in call 54 (up to 9 per region)</span></div>
+    </div>
+    <div class="duo">
+      <div class="convo rev">
+        <div class="ph" style="background-image:url(img/foto-cultivo.jpg)"><span>Convocatoria 54</span></div>
+        <div class="tx">
+          <h3 class="es">Fortalecimiento de capacidades científico-tecnológicas</h3>
+          <h3 class="en">Strengthening science and technology capacities</h3>
+          <ul class="es">
+            <li>Bolsa: <b>$927.591.817.322</b>.</li>
+            <li>Tope por proyecto: <b>$17.177.626.246</b>. No hay mínimo y no hay financiación parcial.</li>
+            <li>Cada proyecto se ejecuta en <b>al menos 2 departamentos de una misma región</b> del SGR, hasta 48 meses.</li>
+            <li>Debe vincular mínimo 1 posdoctorado, 2 estudiantes de maestría y <b>6 jóvenes investigadores</b>.</li>
+          </ul>
+          <ul class="en">
+            <li>Pool: <b>COP 927,591,817,322</b>.</li>
+            <li>Cap per project: <b>COP 17,177,626,246</b>. No minimum, no partial funding.</li>
+            <li>Each project runs in <b>at least 2 departments of the same SGR region</b>, up to 48 months.</li>
+            <li>Must hire at least 1 postdoc, 2 master's students and <b>6 young researchers</b>.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="convo rev">
+        <div class="ph" style="background-image:url(img/foto-drones.jpg)"><span>Convocatoria 55</span></div>
+        <div class="tx">
+          <h3 class="es">Macroproyectos nacionales</h3>
+          <h3 class="en">National macro-projects</h3>
+          <ul class="es">
+            <li>Bolsa: <b>$500.000 millones</b> para unos <b>10 macroproyectos</b>.</li>
+            <li>Tope por proyecto: <b>$50.000 millones</b>.</li>
+            <li>Intervención directa en <b>al menos 2 regiones</b>, de 36 a 48 meses.</li>
+            <li>Tres líneas: servicios científicos compartidos; desarrollo y validación de soluciones; demostración, transferencia y escalamiento.</li>
+          </ul>
+          <ul class="en">
+            <li>Pool: <b>COP 500 billion</b> for about <b>10 macro-projects</b>.</li>
+            <li>Cap per project: <b>COP 50 billion</b>.</li>
+            <li>Direct work in <b>at least 2 regions</b>, 36 to 48 months.</li>
+            <li>Three lines: shared science services; developing and validating solutions; demonstration, transfer and scale-up.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CRONOGRAMA -->
+<section id="cronograma" style="background:#fff">
+  <div class="wrap">
+    <div class="kick"><span class="es">Cronograma</span><span class="en">Timeline</span></div>
+    <h2 class="es">Paso a paso, hasta que el OCAD decida</h2>
+    <h2 class="en">Step by step, until the OCAD decides</h2>
+    <p class="sub es">El punto que titila es donde vamos hoy (hora de Colombia). Las fechas marcadas "oficial" salen de la página de MinCiencias; las demás, de la prensa que citó los términos de referencia.</p>
+    <p class="sub en">The pulsing dot marks where we are today (Colombia time). Dates marked "official" come from MinCiencias' page; the rest from press reports citing the terms of reference.</p>
+    <div class="tl" id="tl"></div>
+  </div>
+</section>
+
+<!-- LINEAS -->
+<section id="lineas">
+  <div class="wrap">
+    <div class="kick"><span class="es">Líneas temáticas de la 54</span><span class="en">Call 54 themes</span></div>
+    <h2 class="es">Tres retos y nueve líneas</h2>
+    <h2 class="en">Three challenges, nine lines</h2>
+    <p class="sub es">Cada proyecto debe responder a una demanda territorial priorizada (Anexo 4) en cada departamento donde se ejecute.</p>
+    <p class="sub en">Every project must answer a prioritized territorial demand (Annex 4) in each department where it runs.</p>
+    <div class="retos">
+      <div class="reto rev"><div class="ph" style="background-image:url(img/foto-campo.jpg)"></div><div class="tx">
+        <h3 class="es">I. Vida y entorno</h3><h3 class="en">I. Life and environment</h3>
+        <ol class="es"><li><b>1</b>Bioeconomía, biodiversidad y patrimonio biocultural</li><li><b>2</b>Sistemas agroalimentarios inteligentes y regenerativos</li><li><b>3</b>Transición energética y descarbonización productiva</li><li><b>4</b>Salud territorial y biotecnología</li><li><b>9</b>Agua, clima, riesgos y sostenibilidad</li></ol>
+        <ol class="en"><li><b>1</b>Bioeconomy, biodiversity and biocultural heritage</li><li><b>2</b>Smart, regenerative agri-food systems</li><li><b>3</b>Energy transition and decarbonization</li><li><b>4</b>Territorial health and biotech</li><li><b>9</b>Water, climate, risk and sustainability</li></ol>
+      </div></div>
+      <div class="reto rev"><div class="ph" style="background-image:url(img/foto-paneles.jpg)"></div><div class="tx">
+        <h3 class="es">II. Competitividad y economía del conocimiento</h3><h3 class="en">II. Competitiveness and knowledge economy</h3>
+        <ol class="es"><li><b>5</b>Territorios inteligentes: IA, conectividad, datos e infraestructura digital</li><li><b>6</b>Innovación empresarial, emprendimiento científico y reindustrialización</li><li><b>7</b>Convergencia territorial</li></ol>
+        <ol class="en"><li><b>5</b>Smart territories: AI, connectivity, data, digital infrastructure</li><li><b>6</b>Business innovation, science entrepreneurship, reindustrialization</li><li><b>7</b>Territorial convergence</li></ol>
+      </div></div>
+      <div class="reto rev"><div class="ph" style="background-image:url(img/foto-alianza.jpg)"></div><div class="tx">
+        <h3 class="es">III. Gobernanza y desarrollo social</h3><h3 class="en">III. Governance and social development</h3>
+        <ol class="es"><li><b>8</b>Innovación social y apropiación del conocimiento</li><li><b>7</b>Convergencia territorial</li><li><b>5</b>Territorios inteligentes: seguridad, convivencia y Estado digital</li></ol>
+        <ol class="en"><li><b>8</b>Social innovation and knowledge appropriation</li><li><b>7</b>Territorial convergence</li><li><b>5</b>Smart territories: security, coexistence, digital government</li></ol>
+      </div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ALIANZA -->
+<section id="alianza" style="background:#fff">
+  <div class="wrap">
+    <div class="kick"><span class="es">Quién puede postular</span><span class="en">Who can apply</span></div>
+    <h2 class="es">Nadie postula solo: se necesita una alianza de 4</h2>
+    <h2 class="en">Nobody applies alone: you need a 4-member alliance</h2>
+    <p class="sub es">Solo personas jurídicas (empresas, entidades, organizaciones). Las personas naturales no pueden postularse. La entidad que lidera debe ser actor reconocido del SNCTI o acreditar trayectoria en CTeI.</p>
+    <p class="sub en">Only legal entities (companies, institutions, organizations). Individuals cannot apply. The lead entity must be a recognized SNCTI actor or prove a track record in science and innovation.</p>
+    <div class="ali">
+      <div class="act rev"><div class="n">1</div><h3 class="es">Una universidad (IES)</h3><h3 class="en">A university (IES)</h3><p class="es">Institución de Educación Superior según la Ley 30 de 1992.</p><p class="en">Higher-education institution under Law 30 of 1992.</p><div class="ej es">En el Bajo Cauca: la Seccional Bajo Cauca de la Universidad de Antioquia, en Caucasia.</div><div class="ej en">In Bajo Cauca: Universidad de Antioquia's Bajo Cauca campus in Caucasia.</div></div>
+      <div class="act rev"><div class="n">2</div><h3 class="es">Otro actor del SNCTI</h3><h3 class="en">Another SNCTI actor</h3><p class="es">Otra universidad o una entidad con reconocimiento vigente de MinCiencias (centro de investigación, de desarrollo tecnológico, etc.).</p><p class="en">Another university or an entity recognized by MinCiencias (research or tech-development center, etc.).</p></div>
+      <div class="act rev"><div class="n">3</div><h3 class="es">Una entidad territorial</h3><h3 class="en">A territorial government</h3><p class="es">Gobernación, alcaldía o esquema asociativo de un departamento de la región del proyecto.</p><p class="en">A department, municipality or territorial association in the project's region.</p><div class="ej es">Ejemplo: Gobernación de Antioquia o Alcaldía de Caucasia.</div><div class="ej en">E.g. Antioquia's government or Caucasia's mayor's office.</div></div>
+      <div class="act rev"><div class="n">4</div><h3 class="es">Quien usa los resultados</h3><h3 class="en">Who uses the results</h3><p class="es">Empresa, gremio, cámara de comercio, productores, organización social, étnica o comunitaria, con representación legal.</p><p class="en">A company, trade group, chamber of commerce, producers, social, ethnic or community organization with legal representation.</p><div class="ej es">Aquí entran las empresas y asociaciones del territorio.</div><div class="ej en">This is where local businesses and associations fit.</div></div>
+    </div>
+    <div class="ali-foto rev"><img src="img/foto-alianza.jpg" alt="Equipo de trabajo revisando un mapa de Colombia" loading="lazy"><div class="cap es">Imagen: pieza oficial de MinCiencias sobre la conformación de la alianza estratégica.</div><div class="cap en">Image: official MinCiencias campaign piece on forming the strategic alliance.</div></div>
+    <div class="reglas">
+      <div class="regla rev"><b>2</b><span class="es">departamentos de una misma región como mínimo. Antioquia está en la región Eje Cafetero–Antioquia (con Caldas, Quindío y Risaralda); Córdoba y Sucre, en la región Caribe.</span><span class="en">departments of the same region, minimum. Antioquia is in the Eje Cafetero–Antioquia region (with Caldas, Quindío, Risaralda); Córdoba and Sucre are in the Caribbean region.</span></div>
+      <div class="regla rev"><b>3</b><span class="es">proyectos máximo por NIT proponente. Cada integrante pone contrapartida en efectivo o en especie (horas de personal, instalaciones), cuantificada en plata.</span><span class="en">projects max per lead entity. Every member adds a cash or in-kind counterpart (staff hours, facilities), valued in pesos.</span></div>
+      <div class="regla rev"><b>0</b><span class="es">plata directa del SGR para el actor usuario: su ganancia es que la investigación resuelva su problema y adoptar los resultados.</span><span class="en">direct SGR money for the user actor: the benefit is research aimed at its problem and adopting the results.</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- POSIBILIDADES -->
+<section id="posibles">
+  <div class="wrap">
+    <div class="kick"><span class="es">Todas las posibilidades</span><span class="en">All the possibilities</span></div>
+    <h2 class="es">Lo que se nos viene</h2>
+    <h2 class="en">What's coming our way</h2>
+    <p class="sub es">Ideas de proyecto que encajan con las líneas y con lo que vive el Bajo Cauca, y los papeles que puede jugar cada quien. Son posibilidades: cada idea tiene que cruzarse con las demandas territoriales del Anexo 4 antes de formularse.</p>
+    <p class="sub en">Project ideas that fit the themes and Bajo Cauca's reality, and the roles each person or group can play. They are possibilities: each must match Annex 4's territorial demands before being drafted.</p>
+    <div class="tabs" id="tabs">
+      <button class="tab on" data-f="todo"><span class="es">Todo</span><span class="en">All</span></button>
+      <button class="tab" data-f="region"><span class="es">Para la región</span><span class="en">For the region</span></button>
+      <button class="tab" data-f="empresa"><span class="es">Empresas y emprendedores</span><span class="en">Businesses</span></button>
+      <button class="tab" data-f="gente"><span class="es">Jóvenes y profesionales</span><span class="en">Young people</span></button>
+      <button class="tab" data-f="ciudadano"><span class="es">Ciudadanos</span><span class="en">Citizens</span></button>
+    </div>
+    <div class="pos" id="pos"></div>
+    <div class="ojo rev">
+      <h3 class="es">Ojo, con los pies en la tierra</h3><h3 class="en">A reality check</h3>
+      <ul class="es">
+        <li>Ser elegible no garantiza la plata: la aprobación la decide el OCAD de CTeI.</li>
+        <li>El tiempo es corto: el rol de formulador en la plataforma PIIP se pedía hasta el 10 de noviembre y el cierre es el 13 a las 4:00 p. m. Lo más realista ahora es <b>sumarse a una alianza que ya se esté armando</b>.</li>
+        <li>Una marca o un negocio a nombre de persona natural no puede firmar como integrante: hace falta una persona jurídica (por ejemplo, una S.A.S.) con certificado de existencia y representación legal.</li>
+        <li>Si esta ronda no alcanza, lo que se aprenda sirve para las próximas convocatorias del nuevo bienio de regalías.</li>
+      </ul>
+      <ul class="en">
+        <li>Being eligible doesn't guarantee money: the OCAD makes the final decision.</li>
+        <li>Time is short: the PIIP formulator role was due Nov 10 and the deadline is Nov 13, 4:00 p.m. The realistic move now is <b>joining an alliance already being formed</b>.</li>
+        <li>A brand or a sole-proprietor business can't sign as a member: you need a legal entity (e.g. an S.A.S.) with a certificate of incorporation.</li>
+        <li>If this round is out of reach, the groundwork pays off in the next royalties calls.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- CONTEXTO -->
+<section id="contexto" style="background:#fff">
+  <div class="wrap">
+    <div class="kick"><span class="es">Contexto</span><span class="en">Context</span></div>
+    <h2 class="es">¿Por qué estas convocatorias y qué hay que vigilar?</h2>
+    <h2 class="en">Why these calls, and what to watch</h2>
+    <div class="ctx">
+      <div class="card rev">
+        <h3 class="es">Nacieron para destrabar proyectos</h3><h3 class="en">Born to unblock projects</h3>
+        <p class="es">El 23 de julio de 2026 el OCAD actualizó el Plan Bienal 2025-2026 e incluyó estas dos convocatorias especiales. Según El Espectador, la 54 permitiría recuperar por vía rápida proyectos del bienio 2023-2024 de las convocatorias 38 a 43, y la 55 busca salvar la convocatoria 37. La Federación Nacional de CTeI (FEDECTI) lo celebró, pero pidió también salvar la convocatoria 33 del programa Ondas.</p>
+        <p class="en">On July 23, 2026 the OCAD updated the 2025-2026 plan and added these two special calls. According to El Espectador, call 54 would fast-track projects from 2023-2024 calls 38 to 43, and call 55 aims to rescue call 37. The national science federation (FEDECTI) welcomed it but also asked to rescue call 33 (Ondas program).</p>
+        <div class="src">Fuente / Source: El Espectador, 24 jul 2026</div>
+      </div>
+      <div class="card rev">
+        <h3 class="es">Las alertas que hay que seguir</h3><h3 class="en">Warnings worth following</h3>
+        <p class="es">En agosto, la Procuraduría pidió al OCAD aplazar la aprobación de tres convocatorias (44, 45 y 50) por cerca de $900.000 millones. Portafolio reportó que más de $1 billón en proyectos estuvo en riesgo por convocatorias que acumularon más de 50 cambios de cronograma. Por eso conviene vigilar que las fechas de esta ronda se cumplan y que los resultados se publiquen.</p>
+        <p class="en">In August, the Inspector General's office asked the OCAD to postpone approving three calls (44, 45 and 50) worth about COP 900 billion. Portafolio reported over COP 1 trillion in projects were at risk after calls piled up more than 50 schedule changes. That's why it's worth watching that this round's dates hold and results are published.</p>
+        <div class="src">Fuentes / Sources: El Heraldo, 6 ago 2026 · Portafolio</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- NOTICIAS -->
+<section id="noticias">
+  <div class="wrap">
+    <div class="kick"><span class="es">Noticias al minuto</span><span class="en">News as it happens</span></div>
+    <h2 class="es">Todo lo que se publica sobre el tema</h2>
+    <h2 class="en">Everything published on the topic</h2>
+    <p class="sub es">Un robot revisa los medios cada 30 minutos y, al abrir la app, se hace además una búsqueda en vivo.</p>
+    <p class="sub en">A robot checks the media every 30 minutes, and a live search runs each time you open the app.</p>
+    <div class="ntools">
+      <input id="q" type="search" placeholder="Buscar: regalías, OCAD, Antioquia, Córdoba…" aria-label="Buscar noticias">
+      <button class="btn btn-v" id="refresh2"><span class="es">Actualizar noticias</span><span class="en">Refresh news</span></button>
+    </div>
+    <div class="chips" id="chips">
+      <button class="chip on" data-k="">Todo</button>
+      <button class="chip" data-k="54">Conv. 54</button>
+      <button class="chip" data-k="55">Conv. 55</button>
+      <button class="chip" data-k="ocad">OCAD</button>
+      <button class="chip" data-k="antioquia">Antioquia</button>
+      <button class="chip" data-k="córdoba">Córdoba</button>
+      <button class="chip" data-k="procuradur">Control</button>
+    </div>
+    <div class="news" id="news"></div>
+  </div>
+</section>
+
+<!-- PETICION -->
+<section id="peticion">
+  <div class="wrap">
+    <div class="kick"><span class="es">Exijamos información</span><span class="en">Let's demand information</span></div>
+    <h2 class="es">Derecho de petición a todos los entes, de una sola vez</h2>
+    <h2 class="en">One petition to every authority, in one go</h2>
+    <p class="sub es">Pregunte qué proyectos se presentan con plata de regalías para su territorio, quién los firma y cómo puede participar la gente. Artículo 23 de la Constitución y Ley 1755 de 2015: deben responder en máximo 15 días hábiles (10 si es solo información).</p>
+    <p class="sub en">Ask which royalty-funded projects are being submitted for your territory, who signs them and how people can take part. Under Colombian law (Const. art. 23, Law 1755/2015) authorities must answer within 15 business days (10 for information requests). The letter is in Spanish, as required.</p>
+    <div class="pet">
+      <div class="card rev">
+        <h3><span class="es">Sus datos</span><span class="en">Your details</span></h3>
+        <label for="pn"><span class="es">Nombre completo</span><span class="en">Full name</span></label><input id="pn" autocomplete="name">
+        <label for="pc"><span class="es">Cédula</span><span class="en">ID number</span></label><input id="pc" inputmode="numeric" autocomplete="off">
+        <label for="pe"><span class="es">Correo para la respuesta</span><span class="en">Email for the reply</span></label><input id="pe" type="email" autocomplete="email">
+        <label for="pm"><span class="es">Municipio</span><span class="en">Town</span></label><input id="pm" value="Caucasia">
+        <label for="pd"><span class="es">Departamento</span><span class="en">Department</span></label>
+        <select id="pd"><option>Antioquia</option><option>Córdoba</option><option>Sucre</option><option>Otro</option></select>
+        <label><span class="es">Se envía a</span><span class="en">Sent to</span></label>
+        <ul class="dest" id="dest">
+          <li><input type="checkbox" checked value="atencionalciudadano@minciencias.gov.co"><div>MinCiencias · Atención al Ciudadano<small>atencionalciudadano@minciencias.gov.co</small></div></li>
+          <li><input type="checkbox" checked value="secretaria_tec_ocad@minciencias.gov.co"><div>Secretaría Técnica del OCAD de CTeI<small>secretaria_tec_ocad@minciencias.gov.co</small></div></li>
+          <li><input type="checkbox" checked value="gestiondocumental@antioquia.gov.co"><div>Gobernación de Antioquia<small>gestiondocumental@antioquia.gov.co</small></div></li>
+          <li><input type="checkbox" checked value="alcaldia@caucasia-antioquia.gov.co"><div>Alcaldía de Caucasia · Despacho<small>alcaldia@caucasia-antioquia.gov.co</small></div></li>
+          <li><input type="checkbox" checked value="planeacion@caucasia-antioquia.gov.co"><div>Alcaldía de Caucasia · Planeación<small>planeacion@caucasia-antioquia.gov.co</small></div></li>
+        </ul>
+        <label for="px"><span class="es">Otro correo (otra gobernación, alcaldía o universidad)</span><span class="en">Another email (other government or university)</span></label><input id="px" type="email" placeholder="correo@entidad.gov.co">
+        <div class="priv es">Aviso de privacidad (Ley 1581 de 2012): sus datos se usan solo para armar la carta en su propio celular. La app no los envía ni los guarda en ningún servidor; quedan en su navegador para no tener que escribirlos otra vez.</div>
+        <div class="priv en">Privacy notice (Law 1581 of 2012): your data is only used to build the letter on your own device. The app doesn't send or store it on any server; it stays in your browser so you don't have to type it again.</div>
+      </div>
+      <div class="card rev">
+        <h3><span class="es">La carta (puede editarla)</span><span class="en">The letter (editable)</span></h3>
+        <textarea id="pt" aria-label="Texto del derecho de petición"></textarea>
+        <div class="pacts">
+          <button class="btn btn-v" id="psend"><span class="es">Enviar a todos por correo</span><span class="en">Email everyone</span></button>
+          <button class="btn btn-l" id="pcopy"><span class="es">Copiar texto</span><span class="en">Copy text</span></button>
+          <button class="btn btn-l" id="pwa"><span class="es">Pasar por WhatsApp</span><span class="en">Share on WhatsApp</span></button>
+        </div>
+        <div class="priv es">El botón abre su correo con todos los destinatarios y la carta lista. Guarde la respuesta automática de radicado: es su prueba.</div>
+        <div class="priv en">The button opens your email app with all recipients and the letter ready. Keep the automatic filing receipt: it's your proof.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- DOCUMENTOS -->
+<section id="docs" style="background:#fff">
+  <div class="wrap">
+    <div class="kick"><span class="es">Documentos oficiales</span><span class="en">Official documents</span></div>
+    <h2 class="es">Términos de referencia y anexos</h2>
+    <h2 class="en">Terms of reference and annexes</h2>
+    <div class="docs" id="docslist"></div>
+    <div class="piezas">
+      <img src="img/pieza-ejes.jpg" alt="Pieza MinCiencias: ejes de inversión tecnológica" loading="lazy">
+      <img src="img/pieza-alianza.jpg" alt="Pieza MinCiencias: conformación de la alianza estratégica" loading="lazy">
+      <img src="img/pieza-postula.jpg" alt="Pieza MinCiencias: postula tu proyecto regional hasta el 13 de noviembre de 2026" loading="lazy">
+    </div>
+    <p class="src" style="margin-top:8px">Piezas publicadas por @minciencias_co en Instagram.</p>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p><b>Ciencia para las Regiones al Día</b> — <span class="es">app ciudadana e independiente de seguimiento. No es una página del Gobierno. Verifique siempre en minciencias.gov.co antes de postular.</span><span class="en">an independent citizen tracker. Not a government site. Always verify at minciencias.gov.co before applying.</span></p>
+    <p style="margin-top:8px"><span class="es">Fuentes:</span><span class="en">Sources:</span> MinCiencias (convocatorias 54 y 55, sala de prensa), El Espectador, Más Colombia, PYME Noticias, IFM Noticias, El Heraldo, Portafolio.</p>
+    <p style="margin-top:8px" id="ftime"></p>
+    <p class="copy">Desarrollada por Vibras Positivas HM — Derechos de Autor Reservados</p>
+    <p>Caucasia, Antioquia · WhatsApp 311 770 0431</p>
+  </div>
+</footer>
+
+<div class="toast" id="toast"></div>
+
+<script>
+(function(){
+const TZ='America/Bogota';
+const CIERRE=new Date('2026-11-13T16:00:00-05:00');
+const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
+let LANG=localStorage.getItem('cra_lang')||'es';
+const T=(es,en)=>LANG==='en'?en:es;
+function setLang(l){LANG=l;document.documentElement.lang=l;$('#lang').textContent=l==='es'?'EN':'ES';$('#q').placeholder=l==='es'?'Buscar: regalías, OCAD, Antioquia, Córdoba…':'Search: royalties, OCAD, Antioquia…';$$('.chip')[0].textContent=l==='es'?'Todo':'All';try{localStorage.setItem('cra_lang',l)}catch(e){};renderAll()}
+$('#lang').onclick=()=>setLang(LANG==='es'?'en':'es');
+
+function toast(m){const t=$('#toast');t.textContent=m;t.classList.add('on');clearTimeout(t._t);t._t=setTimeout(()=>t.classList.remove('on'),2600)}
+
+/* fecha Colombia */
+function bogDate(d=new Date()){const p=new Intl.DateTimeFormat('en-CA',{timeZone:TZ,year:'numeric',month:'2-digit',day:'2-digit'}).format(d);return p} // YYYY-MM-DD
+function fmtLong(d){return new Intl.DateTimeFormat(LANG==='en'?'en-US':'es-CO',{timeZone:TZ,weekday:'long',day:'numeric',month:'long',year:'numeric'}).format(d)}
+function fmtShort(s){const d=new Date(s+'T12:00:00-05:00');return new Intl.DateTimeFormat(LANG==='en'?'en-US':'es-CO',{timeZone:TZ,day:'numeric',month:'short'}).format(d)}
+function fmtTime(d){return new Intl.DateTimeFormat(LANG==='en'?'en-US':'es-CO',{timeZone:TZ,hour:'numeric',minute:'2-digit',day:'numeric',month:'short'}).format(d)}
+
+/* cronograma */
+const CRONO=[
+ {i:'2026-10-23',f:'2026-10-23',es:'Apertura de las convocatorias 54 y 55',en:'Calls 54 and 55 open',of:1},
+ {i:'2026-10-27',f:'2026-10-27',es:'Último día para preguntas sobre los términos',en:'Last day for questions on the terms',of:0},
+ {i:'2026-11-03',f:'2026-11-03',es:'MinCiencias publica respuestas a observaciones',en:'MinCiencias answers the questions',of:0},
+ {i:'2026-11-10',f:'2026-11-10',es:'Último día para pedir usuario o rol formulador en la PIIP',en:'Last day to request a PIIP formulator role',of:0},
+ {i:'2026-11-13',f:'2026-11-13',es:'Cierre: radicación de proyectos hasta las 4:00 p. m.',en:'Deadline: submissions until 4:00 p.m.',of:1},
+ {i:'2026-11-18',f:'2026-11-19',es:'Subsanación de requisitos',en:'Fixing missing requirements',of:0},
+ {i:'2026-11-20',f:'2026-12-02',es:'Evaluación de proyectos',en:'Project evaluation',of:0},
+ {i:'2026-12-03',f:'2026-12-03',es:'Publicación de resultados preliminares',en:'Preliminary results published',of:1},
+ {i:'2026-12-04',f:'2026-12-07',es:'Observaciones al listado preliminar (hasta las 4:00 p. m.)',en:'Comments on the preliminary list (until 4:00 p.m.)',of:0},
+ {i:'2026-12-10',f:'2026-12-10',es:'Publicación de resultados definitivos',en:'Final results published',of:1},
+ {i:'2026-12-11',f:'2026-12-15',es:'Carga de proyectos elegibles en la PIIP',en:'Eligible projects uploaded to PIIP',of:0},
+ {i:'2026-12-22',f:'2026-12-22',es:'Envío al OCAD de CTeI',en:'Sent to the science OCAD',of:0},
+ {i:'2026-12-29',f:'2026-12-29',es:'Decisión del OCAD de CTeI (según prensa; confirmar)',en:'OCAD decision (press report; to confirm)',of:0}
+];
+function estado(it,hoy){if(hoy>it.f)return 'ok';if(hoy>=it.i&&hoy<=it.f)return 'ya';return 'no'}
+function renderTL(){const hoy=bogDate();let marked=false;$('#tl').innerHTML=CRONO.map(it=>{let s=estado(it,hoy);if(s==='no'&&!marked&&!CRONO.some(x=>estado(x,hoy)==='ya')){s='prox';marked=true}
+ const cls=s==='ok'?'ok':(s==='ya'?'ya':'');const st=s==='ok'?`<span class="st s1">${T('Cumplido','Done')}</span>`:s==='ya'?`<span class="st s2">${T('Hoy','Today')}</span>`:s==='prox'?`<span class="st s3">${T('Lo próximo','Next')}</span>`:'';
+ const d=it.i===it.f?fmtShort(it.i):fmtShort(it.i)+' – '+fmtShort(it.f);
+ return `<div class="it ${cls}"><div class="d">${d}</div><div class="t">${T(it.es,it.en)} ${st}</div><div class="src">${it.of?T('Oficial · minciencias.gov.co','Official · minciencias.gov.co'):T('Reportado por prensa (Más Colombia)','Press report (Más Colombia)')}</div></div>`}).join('')}
+
+/* HOY */
+function renderHoy(){const now=new Date(),hoy=bogDate(now);
+ $('#hoyfecha').textContent=fmtLong(now);
+ const act=CRONO.filter(x=>estado(x,hoy)==='ya');const prox=CRONO.find(x=>x.i>hoy);
+ let txt;
+ if(now<CIERRE){const ms=CIERRE-now,d=Math.floor(ms/864e5),h=Math.floor(ms%864e5/36e5);txt=T(`La recepción de proyectos <b>está abierta</b>. Quedan <b>${d} ${d===1?'día':'días'} y ${h} ${h===1?'hora':'horas'}</b> para el cierre del viernes 13 de noviembre a las 4:00 p. m.`,`Submissions are <b>open</b>. <b>${d} ${d===1?'day':'days'} and ${h} ${h===1?'hour':'hours'}</b> left until Friday, Nov 13, 4:00 p.m.`)}
+ else if(act.length){txt=T('Hoy: <b>'+act.map(a=>a.es).join(' · ')+'</b>.','Today: <b>'+act.map(a=>a.en).join(' · ')+'</b>.')}
+ else if(prox){txt=T('La convocatoria ya cerró. Ahora toca esperar el siguiente paso.','The call has closed. Waiting for the next step.')}
+ else txt=T('El cronograma conocido terminó. Siga las noticias para saber qué aprobó el OCAD.','The known timeline is over. Follow the news to see what the OCAD approved.');
+ $('#hoypaso').innerHTML=txt;
+ const ini=new Date('2026-10-23T00:00:00-05:00'),fin=new Date('2026-12-29T23:59:00-05:00');const pct=Math.max(0,Math.min(100,(now-ini)/(fin-ini)*100));
+ setTimeout(()=>$('#hoybar').style.width=pct.toFixed(1)+'%',200);
+ $('#hoybartx').textContent=T(`Avance del proceso completo (apertura a decisión del OCAD): ${pct.toFixed(0)} %`,`Progress of the whole process (opening to OCAD decision): ${pct.toFixed(0)}%`);
+ const p2=CRONO.find(x=>x.i>hoy);$('#hoyprox').innerHTML=p2?T('Lo próximo: <b>'+fmtShort(p2.i)+'</b> · '+p2.es,'Next: <b>'+fmtShort(p2.i)+'</b> · '+p2.en):'';
+ $('#ftime').textContent=T('Hora de Colombia: ','Colombia time: ')+fmtTime(now);
+}
+
+/* cuenta regresiva */
+function tick(){let ms=CIERRE-new Date();if(ms<0){$('#countlab').innerHTML=T('La recepción<br>ya cerró','Submissions<br>are closed');ms=0}
+ const d=Math.floor(ms/864e5),h=Math.floor(ms%864e5/36e5),m=Math.floor(ms%36e5/6e4),s=Math.floor(ms%6e4/1e3);
+ $('#cd-d').textContent=d;$('#cd-h').textContent=h;$('#cd-m').textContent=m;$('#cd-s').textContent=s}
+setInterval(tick,1000);
+
+/* hero slideshow */
+let hb=0;const bgs=$$('.hero .bg');setInterval(()=>{bgs[hb].classList.remove('on');hb=(hb+1)%bgs.length;bgs[hb].classList.add('on')},6000);
+
+/* posibilidades */
+const POS=[
+ {c:'region',img:'img/foto-cultivo.jpg',tag:{es:'Línea 9 y 1',en:'Lines 9 & 1'},es:['Recuperar suelos y aguas tras la minería','Ciencia para medir y reducir el mercurio en ciénagas y peces, y devolverle vida a los suelos degradados por la minería aluvial del Bajo Cauca.','IES + autoridad ambiental + alcaldías + pescadores y mineros formalizados'],en:['Restoring land and water after mining','Science to measure and cut mercury in wetlands and fish, and bring back soils degraded by alluvial mining in Bajo Cauca.','University + environmental agency + towns + fishers and formal miners']},
+ {c:'region',img:'img/foto-campo.jpg',tag:{es:'Línea 2',en:'Line 2'},es:['Agro inteligente y regenerativo','Sensores, estaciones de clima y riego eficiente para cultivos de la zona (arroz, cacao, frutales, ganadería), con asociaciones de productores como usuarias.','IES + gobernación + asociaciones de productores'],en:['Smart, regenerative farming','Sensors, weather stations and efficient irrigation for local crops (rice, cocoa, fruit, cattle), with producer associations as users.','University + department + producer associations']},
+ {c:'region',img:'img/foto-paneles.jpg',tag:{es:'Línea 3',en:'Line 3'},es:['Energía solar para veredas y negocios','Pilotos de energía solar y eficiencia energética en escuelas rurales, centros de acopio y pequeñas empresas para bajar costos.','IES + alcaldías + cooperativas o empresas'],en:['Solar power for villages and businesses','Solar and energy-efficiency pilots in rural schools, collection centers and small businesses to cut costs.','University + towns + co-ops or companies']},
+ {c:'region',img:'img/foto-alianza.jpg',tag:{es:'Línea 4',en:'Line 4'},es:['Salud territorial','Investigación en enfermedades tropicales y salud ambiental con hospitales públicos de la subregión, sumando datos para decidir mejor.','IES + secretarías de salud + ESE hospitalarias'],en:['Territorial health','Research on tropical disease and environmental health with the area\'s public hospitals, building data for better decisions.','University + health offices + public hospitals']},
+ {c:'empresa',img:'img/foto-drones.jpg',tag:{es:'Línea 6',en:'Line 6'},es:['La empresa como actor usuario','Distribuidoras, tiendas, cooperativas o gremios entran como el cuarto integrante: plantean su problema real (logística, pérdidas, ventas) y adoptan lo que salga del proyecto.','Requiere persona jurídica, certificado de existencia y firma del Anexo 1'],en:['Your company as the user actor','Distributors, shops, co-ops or trade groups join as the fourth member: they bring a real problem (logistics, losses, sales) and adopt the results.','Requires a legal entity, incorporation certificate and signing Annex 1']},
+ {c:'empresa',img:'img/foto-paneles.jpg',tag:{es:'Líneas 5 y 8',en:'Lines 5 & 8'},es:['Soluciones digitales dentro de los proyectos','Todo proyecto aprobado debe hacer apropiación social del conocimiento (Anexo 10): apps, plataformas de datos y herramientas para que la gente use los resultados. Ahí hay trabajo para desarrolladores locales.','Proveedores y aliados de las universidades ejecutoras'],en:['Digital solutions inside projects','Every approved project must do social appropriation of knowledge (Annex 10): apps, data platforms and tools so people use the results. That means work for local developers.','Suppliers and partners of the executing universities']},
+ {c:'empresa',img:'img/foto-cultivo.jpg',tag:{es:'Línea 6',en:'Line 6'},es:['Prepararse para la próxima','Formalizarse como S.A.S., registrar las actividades de innovación y acercarse a la universidad y a la cámara de comercio deja a la empresa lista para las siguientes convocatorias.','Emprendedores y pequeños negocios'],en:['Get ready for the next round','Incorporating as an S.A.S., documenting innovation work and building ties with the university and chamber of commerce leaves you ready for future calls.','Entrepreneurs and small businesses']},
+ {c:'gente',img:'img/foto-campo.jpg',tag:{es:'Empleo',en:'Jobs'},es:['Jóvenes investigadores','Cada proyecto de la 54 debe vincular mínimo 6 jóvenes investigadores (pregrado o recién graduados). Unos 54 proyectos en el país pueden significar cientos de cupos.','Estudiantes y egresados de las universidades de la región'],en:['Young researchers','Each call-54 project must hire at least 6 young researchers (students or recent grads). About 54 projects nationwide could mean hundreds of spots.','Students and graduates from regional universities']},
+ {c:'gente',img:'img/foto-alianza.jpg',tag:{es:'Formación',en:'Training'},es:['Maestrías y posdoctorados','Cada proyecto vincula al menos 2 estudiantes de maestría y 1 posdoctorado: becas de facto para profesionales que quieran investigar en su tierra.','Profesionales de la región'],en:['Master\'s and postdoc spots','Each project brings in at least 2 master\'s students and 1 postdoc: de facto scholarships for professionals who want to research at home.','Local professionals']},
+ {c:'ciudadano',img:'img/foto-drones.jpg',tag:{es:'Control',en:'Oversight'},es:['Veeduría ciudadana','Los proyectos con regalías se pueden vigilar por medio de veedurías (Ley 850 de 2003). Pedir el listado de proyectos del territorio y seguir su ejecución es el primer paso.','Juntas de acción comunal, veedores, periodistas'],en:['Citizen oversight','Royalty-funded projects can be monitored through citizen oversight committees (Law 850 of 2003). Asking for the list of local projects and tracking them is step one.','Community boards, watchdogs, journalists']},
+ {c:'ciudadano',img:'img/foto-cultivo.jpg',tag:{es:'Participación',en:'Participation'},es:['Que el Bajo Cauca no quede por fuera','Con el derecho de petición de esta app se le pregunta a la Gobernación y a la Alcaldía si firmaron alguna alianza y qué contrapartida comprometieron.','Cualquier ciudadano'],en:['Keep Bajo Cauca in the game','With this app\'s petition you can ask the department and town whether they signed any alliance and what counterpart they committed.','Any citizen']},
+ {c:'region',img:'img/foto-paneles.jpg',tag:{es:'Línea 5',en:'Line 5'},es:['Territorios inteligentes','Datos abiertos, conectividad rural e inteligencia artificial para seguridad, alertas de inundación y servicios públicos en los municipios.','IES + alcaldías + operadores y organizaciones comunitarias'],en:['Smart territories','Open data, rural connectivity and AI for safety, flood alerts and public services in towns.','University + towns + operators and community groups']}
+];
+let PF='todo';
+function renderPos(){$('#pos').innerHTML=POS.filter(p=>PF==='todo'||p.c===PF).map(p=>{const x=p[LANG];return `<div class="op rev vis"><div class="ph" style="background-image:url(${p.img})"><em>${p.tag[LANG]}</em></div><div class="tx"><h3>${x[0]}</h3><p>${x[1]}</p><div class="who">${x[2]}</div></div></div>`}).join('')}
+$('#tabs').onclick=e=>{const b=e.target.closest('.tab');if(!b)return;$$('.tab').forEach(t=>t.classList.remove('on'));b.classList.add('on');PF=b.dataset.f;renderPos()};
+
+/* documentos */
+const BASE='https://minciencias.gov.co/sites/default/files/upload/convocatoria/';
+const DOCS=[
+ ['Página oficial Convocatoria 54','https://minciencias.gov.co/convocatorias/convocatoria-54-convocatoria-especial-para-la-financiacion-proyectos-para-el','WEB'],
+ ['Página oficial Convocatoria 55','https://minciencias.gov.co/convocatorias/convocatoria-especial-para-la-financiacion-macroproyectos-nacionales-para-el','WEB'],
+ ['Términos de referencia Convocatoria 54',BASE+'tdr_convocatoria54_publicada.pdf','PDF'],
+ ['Anexo 1. Carta unificada de aval y gobernanza',BASE+'anexo_1._carta_unificada_de_aval_compromiso_institucional_y_modelo_de_gobernanza_vf.docx','DOCX'],
+ ['Anexo 2. Documento técnico',BASE+'anexo_2._documento_tecnico_vf.docx','DOCX'],
+ ['Anexo 3. Presupuesto',BASE+'anexo_3._presupuesto_vf.xlsx','XLSX'],
+ ['Anexo 4. Demandas territoriales 2025-2026',BASE+'anexo_4._demandas_territoriales_del_bienio_2025-2026_vf.pdf','PDF'],
+ ['Anexo 8. Departamentos y regiones',BASE+'anexo_8._distribucioun_geograufica_por_departamentos_y_regiones.pdf','PDF'],
+ ['Anexo 9. Rol formulador en la PIIP',BASE+'anexo_9._procedimiento_para_la_creacioun_del_usuario_o_rol_formulador_en_la_piip.docx','DOCX'],
+ ['Anexo 10. Apropiación social del conocimiento',BASE+'anexo_10._lineamientos_para_integrar_el_enfoque_de_apropiacion_social_del_conocimiento_0.pdf','PDF'],
+ ['Anexo 14. Requisitos habilitantes',BASE+'anexo_14._tabla_de_requisitos_de_participacion-habilitantes-vf.pdf','PDF'],
+ ['Respuestas a observaciones (54)',BASE+'respuesta_observaciones_terminos_de_referencia_convocatoria_54.xlsx','XLSX'],
+ ['Fe de erratas anexos 3, 6 y 14',BASE+'fe_de_erratas_anexos_3_6_y_14.pdf','PDF'],
+ ['Plan de convocatorias ACTeI 2025-2026','https://minciencias.gov.co/plan-convocatorias-actei-2025-2026-0','WEB']
+];
+$('#docslist').innerHTML=DOCS.map(d=>`<a class="doc" href="${d[1]}" target="_blank" rel="noopener">${d[0]}<span>${d[2]}</span></a>`).join('');
+
+/* noticias */
+const IMGS=['img/foto-campo.jpg','img/foto-alianza.jpg','img/foto-paneles.jpg','img/foto-cultivo.jpg','img/foto-drones.jpg'];
+const QUERIES=['"convocatoria 54" Minciencias','"convocatoria 55" Minciencias','OCAD ciencia tecnología regalías','Minciencias regalías regiones convocatorias'];
+let NEWS=[],KEY='';
+function norm(s){return (s||'').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'')}
+function merge(list){const seen=new Map();[...NEWS,...list].forEach(n=>{if(!n||!n.title)return;const k=norm(n.title).slice(0,70);if(!seen.has(k))seen.set(k,n)});NEWS=[...seen.values()].sort((a,b)=>(new Date(b.date||0))-(new Date(a.date||0)));try{localStorage.setItem('cra_news',JSON.stringify(NEWS.slice(0,80)))}catch(e){}}
+function isToday(d){return d&&bogDate(new Date(d))===bogDate()}
+function renderNews(){const q=norm($('#q').value),k=norm(KEY);
+ const L=NEWS.filter(n=>{const t=norm(n.title+' '+(n.source||''));return (!q||t.includes(q))&&(!k||t.includes(k))});
+ $('#news').innerHTML=L.length?L.slice(0,30).map((n,i)=>`<a class="nw" href="${n.link}" target="_blank" rel="noopener" style="animation-delay:${Math.min(i,12)*40}ms"><div class="ph" style="background-image:url(${IMGS[i%IMGS.length]})"><span>${esc(n.source||'Medio')}</span>${isToday(n.date)?`<i>${T('HOY','TODAY')}</i>`:''}</div><div class="tx"><h4>${esc(n.title)}</h4><small>${n.date?fmtTime(new Date(n.date)):T('Fecha sin confirmar','Date not confirmed')}</small></div></a>`).join(''):`<div class="empty">${T('No hay noticias con esa búsqueda. Pruebe otra palabra o actualice.','No news matches. Try another word or refresh.')}</div>`;
+ const top=NEWS.slice(0,5);$('#hoylist').innerHTML=top.length?top.map(n=>`<li><a href="${n.link}" target="_blank" rel="noopener">${isToday(n.date)?'<b style="color:var(--lima)">'+T('HOY','TODAY')+' · </b>':''}${esc(n.title)}</a><small>${esc(n.source||'')}${n.date?' · '+fmtTime(new Date(n.date)):''}</small></li>`).join(''):`<li>${T('Sin noticias todavía.','No news yet.')}</li>`;
+ const tk=NEWS.slice(0,8).map(n=>`<span><b>${esc((n.source||'NOTICIA').slice(0,18).toUpperCase())}</b>${esc(n.title)}</span>`).join('');if(tk)$('#ticker').innerHTML=tk+tk;
+}
+function esc(s){return String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
+function parseRSS(xml){const d=new DOMParser().parseFromString(xml,'text/xml');return [...d.querySelectorAll('item')].map(it=>{let title=it.querySelector('title')?.textContent||'';const src=it.querySelector('source')?.textContent||'';if(src&&title.endsWith(' - '+src))title=title.slice(0,-(src.length+3));return {title,link:it.querySelector('link')?.textContent||'',source:src,date:it.querySelector('pubDate')?new Date(it.querySelector('pubDate').textContent).toISOString():null}})}
+async function loadRobot(){try{const r=await fetch('noticias.json?t='+Date.now(),{cache:'no-store'});const j=await r.json();merge(j.items||[]);if(j.updated)$('#upd').textContent=T('Robot de noticias: ','News robot: ')+fmtTime(new Date(j.updated));}catch(e){}}
+async function liveSearch(){const out=[];await Promise.all(QUERIES.map(async q=>{const u='https://news.google.com/rss/search?q='+encodeURIComponent(q+' when:30d')+'&hl=es-419&gl=CO&ceid=CO:es-419';
+ for(const p of ['https://api.allorigins.win/raw?url=','https://corsproxy.io/?url=']){try{const ctl=new AbortController();setTimeout(()=>ctl.abort(),9000);const r=await fetch(p+encodeURIComponent(u),{signal:ctl.signal});if(!r.ok)continue;const x=await r.text();if(x.includes('<item>')){out.push(...parseRSS(x));break}}catch(e){}}}));
+ const rel=out.filter(n=>/minciencias|regal|ocad|ciencia|convocatoria/i.test(n.title));if(rel.length)merge(rel);return rel.length}
+async function refreshAll(manual){const b=$('#refresh');b.disabled=true;b.innerHTML=`<span class="spin">◌</span>`;
+ await loadRobot();renderNews();const n=await liveSearch();renderNews();renderHoy();renderTL();
+ b.disabled=false;b.innerHTML='<span class="es">Actualizar</span><span class="en">Refresh</span>';
+ if(manual)toast(n?T(`Listo: búsqueda en vivo con ${n} resultados`,`Done: live search found ${n} results`):T('Listo: noticias del robot cargadas','Done: robot news loaded'))}
+$('#refresh').onclick=()=>refreshAll(true);$('#refresh2').onclick=()=>refreshAll(true);
+$('#q').oninput=renderNews;
+$('#chips').onclick=e=>{const c=e.target.closest('.chip');if(!c)return;$$('.chip').forEach(x=>x.classList.remove('on'));c.classList.add('on');KEY=c.dataset.k;renderNews()};
+
+/* derecho de peticion */
+const F=['pn','pc','pe','pm','pd','px'];
+function loadP(){try{const s=JSON.parse(localStorage.getItem('cra_pet')||'{}');F.forEach(k=>{if(s[k])$('#'+k).value=s[k]})}catch(e){}}
+function saveP(){const s={};F.forEach(k=>s[k]=$('#'+k).value);try{localStorage.setItem('cra_pet',JSON.stringify(s))}catch(e){}}
+function carta(){const n=$('#pn').value||'[NOMBRE COMPLETO]',c=$('#pc').value||'[CÉDULA]',e=$('#pe').value||'[CORREO]',m=$('#pm').value||'[MUNICIPIO]',d=$('#pd').value;
+ const f=new Intl.DateTimeFormat('es-CO',{timeZone:TZ,day:'numeric',month:'long',year:'numeric'}).format(new Date());
+ return `${m}, ${f}
+
+Señores
+MINISTERIO DE CIENCIA, TECNOLOGÍA E INNOVACIÓN – Atención al Ciudadano
+SECRETARÍA TÉCNICA DEL OCAD DE CIENCIA, TECNOLOGÍA E INNOVACIÓN DEL SGR
+GOBERNACIÓN DE ${d.toUpperCase()}
+ALCALDÍA MUNICIPAL DE ${m.toUpperCase()}
+E. S. D.
+
+Asunto: Derecho de petición de información — Convocatorias 54 y 55 de la Asignación para la CTeI del Sistema General de Regalías, con relación al municipio de ${m} y al departamento de ${d}.
+
+Yo, ${n}, identificado(a) con cédula de ciudadanía No. ${c}, en ejercicio del derecho fundamental de petición consagrado en el artículo 23 de la Constitución Política y regulado por la Ley 1755 de 2015, y del derecho de acceso a la información pública de la Ley 1712 de 2014, respetuosamente solicito:
+
+1. Informar si su entidad hace parte, como proponente, integrante o entidad territorial avalista, de alguna alianza que haya presentado o vaya a presentar proyectos a la Convocatoria 54 (fortalecimiento de capacidades científico-tecnológicas) o a la Convocatoria 55 (macroproyectos nacionales), con cierre el 13 de noviembre de 2026.
+
+2. En caso afirmativo, indicar para cada proyecto: nombre, entidad proponente, integrantes de la alianza, departamentos y municipios donde se ejecutaría, línea temática, valor solicitado al SGR y valor y tipo de la contrapartida comprometida por su entidad, y remitir copia de la carta unificada de aval (Anexo 1) firmada.
+
+3. Informar qué demandas territoriales del bienio 2025-2026 (Anexo 4 de la Convocatoria 54) corresponden al departamento de ${d} y cómo se priorizaron, en especial las que beneficien al municipio de ${m} y a su subregión.
+
+4. Informar qué mecanismos dispuso o dispondrá su entidad para que universidades, empresas, organizaciones sociales, productores y jóvenes de la región participen en estas alianzas, incluidos los cupos de jóvenes investigadores, estudiantes de maestría y posdoctorados que exige la convocatoria.
+
+5. A MinCiencias y a la Secretaría Técnica del OCAD: informar cuántos proyectos se radicaron por región del SGR, cuántos incluyen ejecución en el departamento de ${d}, y las fechas confirmadas de publicación de resultados preliminares y definitivos y de la sesión en la que el OCAD decidirá su viabilización, priorización y aprobación.
+
+6. Informar los canales por los cuales la ciudadanía podrá hacer seguimiento y veeduría a la ejecución de los proyectos que resulten aprobados.
+
+Si alguna de estas solicitudes no es de su competencia, solicito darle traslado a la entidad competente conforme al artículo 21 de la Ley 1755 de 2015 e informármelo.
+
+Recibiré respuesta en el correo electrónico ${e}.
+
+Atentamente,
+
+${n}
+C. C. ${c}
+${m}, ${d}`}
+function renderCarta(){if(!$('#pt').dataset.edit)$('#pt').value=carta()}
+F.forEach(k=>$('#'+k).addEventListener('input',()=>{saveP();$('#pt').dataset.edit='';renderCarta()}));
+$('#pd').addEventListener('change',()=>{saveP();$('#pt').dataset.edit='';renderCarta()});
+$('#pt').addEventListener('input',()=>$('#pt').dataset.edit='1');
+function dests(){const l=$$('#dest input:checked').map(i=>i.value);const x=$('#px').value.trim();if(x)l.push(x);return l}
+function okDatos(){if(!$('#pn').value.trim()||!$('#pc').value.trim()||!$('#pe').value.trim()){toast(T('Escriba nombre, cédula y correo para que la petición sea válida','Fill in name, ID and email so the petition is valid'));return false}return true}
+$('#psend').onclick=()=>{if(!okDatos())return;const to=dests();if(!to.length)return toast(T('Escoja al menos un destinatario','Pick at least one recipient'));
+ const sub='Derecho de petición – Convocatorias 54 y 55 SGR CTeI – '+$('#pm').value;
+ location.href='mailto:'+to.join(',')+'?subject='+encodeURIComponent(sub)+'&body='+encodeURIComponent($('#pt').value)};
+$('#pcopy').onclick=async()=>{try{await navigator.clipboard.writeText('Para: '+dests().join(', ')+'\n\n'+$('#pt').value);toast(T('Carta copiada con los correos','Letter copied with recipients'))}catch(e){$('#pt').select();document.execCommand('copy');toast(T('Carta copiada','Copied'))}};
+$('#pwa').onclick=()=>{window.open('https://wa.me/?text='+encodeURIComponent('Exijamos información sobre la plata de regalías para ciencia en nuestra región. Envíe su derecho de petición desde aquí: https://ciencia-regiones-al-dia.netlify.app/#peticion'),'_blank')};
+
+/* compartir */
+$('#share').onclick=async()=>{const d={title:'Ciencia para las Regiones al Día',text:T('$1,43 billones de regalías para ciencia en las regiones. Cierre: 13 nov, 4:00 p. m.','COP 1.43 trillion in royalties for regional science. Deadline: Nov 13, 4 p.m.'),url:'https://ciencia-regiones-al-dia.netlify.app/'};
+ if(navigator.share){try{await navigator.share(d)}catch(e){}}else window.open('https://wa.me/?text='+encodeURIComponent(d.text+' '+d.url),'_blank')};
+
+/* contadores y aparición */
+function fmtN(n){return n.toLocaleString('es-CO')}
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(!e.isIntersecting)return;e.target.classList.add('vis');const b=e.target.querySelector('b[data-n]');if(b&&!b._d){b._d=1;const N=+b.dataset.n,t0=performance.now();(function f(t){const p=Math.min(1,(t-t0)/1400),v=Math.round(N*(1-Math.pow(1-p,3)));b.textContent=(N>1000?'$':'')+fmtN(v);if(p<1)requestAnimationFrame(f)})(t0)}io.unobserve(e.target)}),{threshold:.15});
+function obs(){$$('.rev:not(.vis)').forEach(el=>io.observe(el))}
+
+/* nav activa */
+const secs=$$('section[id]');addEventListener('scroll',()=>{let cur='';secs.forEach(s=>{if(scrollY>=s.offsetTop-140)cur=s.id});$$('.nav a').forEach(a=>a.classList.toggle('on',a.getAttribute('href')==='#'+cur))},{passive:true});
+
+/* instalar */
+let dp;addEventListener('beforeinstallprompt',e=>{e.preventDefault();dp=e;$('#inst').style.display='inline-block'});
+$('#inst').onclick=async()=>{if(!dp)return;dp.prompt();await dp.userChoice;dp=null;$('#inst').style.display='none'};
+if('serviceWorker' in navigator)addEventListener('load',()=>navigator.serviceWorker.register('sw.js').catch(()=>{}));
+
+function renderAll(){renderHoy();renderTL();renderPos();renderNews();renderCarta();tick();obs()}
+
+/* arranque: cada vez que se entra se actualiza "Hoy" y se busca en vivo */
+try{NEWS=JSON.parse(localStorage.getItem('cra_news')||'[]')}catch(e){NEWS=[]}
+loadP();setLang(LANG);refreshAll(false);
+document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='visible'){renderHoy();renderTL()}});
+})();
+</script>
+</body>
+</html>
